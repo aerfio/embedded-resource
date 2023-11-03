@@ -1,0 +1,14 @@
+apiVersion: embedded.aerf.io/v1alpha1
+kind: Object
+metadata:
+  name: test
+spec:
+  manifest:
+    apiVersion: v2
+    data:
+      key1: config1
+      key2: config2
+    kind: ConfigMapWhatever
+    metadata:
+      name: updated
+      namespace: updated
